@@ -123,12 +123,12 @@ public class MergeSort {
         if (args[0].equals("-i")) {
             regex = regexDigit;
             comparator = Comparator.comparingInt(Integer::parseInt);
-            parseFiles(args, 1);
+            return parseFiles(args, 1);
         }
         if (args[0].equals("-s")) {
             regex = regexString;
             comparator = String::compareTo;
-            parseFiles(args, 1);
+            return parseFiles(args, 1);
         }
         return WRONG_ARGS;
     }
