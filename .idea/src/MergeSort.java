@@ -152,7 +152,7 @@ public class MergeSort {
         String nextString;
         while (scanner.hasNext()) {
             nextString = scanner.nextLine();
-            if (nextString.matches(regex) && (!previousValues.containsKey(scanner) || comparator.compare(nextString, previousValues.get(scanner)) > 0))
+            if (nextString.matches(regex) && (!previousValues.containsKey(scanner) || comparator.compare(nextString, previousValues.get(scanner)) >= 0))
                 return nextString;
         }
         return null;
