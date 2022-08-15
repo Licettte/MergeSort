@@ -23,4 +23,4 @@ java MergeSort -s out.txt in1.txt in2.txt in3.txt (для строк по воз
 java MergeSort -d -s out.txt in1.txt in2.txt (для строк по убыванию)
 ```
 
-версия Java 11;
+версия Java 11
