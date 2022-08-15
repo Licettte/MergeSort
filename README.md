@@ -27,4 +27,6 @@ java MergeSort -a -i out.txt in.txt (для целых чисел по возр�
 java MergeSort -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию).
 java MergeSort -d -s out.txt in1.txt in2.txt (для строк по убыванию).
 ```
- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
