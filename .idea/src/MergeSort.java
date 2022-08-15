@@ -93,8 +93,9 @@ public class MergeSort {
     }
 
     private static String parseArgs(String[] args) {
-        if (args.length < 3) return WRONG_ARGS;
+        if (args.length < 1) return WRONG_ARGS;
         if (args[0].equals("--help")) return HELP;
+        if (args.length < 3) return WRONG_ARGS;
         if (args[0].equals("-a")) {
             if (args[1].equals("-i")) {
                 regex = regexDigit;
