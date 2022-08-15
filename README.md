@@ -22,13 +22,7 @@
 
 `Примеры запуска из командной строки для Windows:`
 
-```CLI
-java MergeSort -a -i out.txt in.txt (для целых чисел по возрастанию).
-java MergeSort -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию).
-java MergeSort -d -s out.txt in1.txt in2.txt (для строк по убыванию).
-```
-
-```TUI
+```telnet
 java MergeSort -a -i out.txt in.txt (для целых чисел по возрастанию).
 java MergeSort -s out.txt in1.txt in2.txt in3.txt (для строк по возрастанию).
 java MergeSort -d -s out.txt in1.txt in2.txt (для строк по убыванию).
